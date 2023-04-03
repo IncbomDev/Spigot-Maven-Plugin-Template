@@ -3,17 +3,18 @@
 ## How to use:
 
 First, make sure you edit all the values in pom.xml. Those include:
-    <mc.version>MINECRAFT VERSION</mc.version> (default value is 1.19.3 so there is no pom.xml errors)
-    <groupId>YOURNAME</groupId>
-    <artifactId>PLUGINNAME</artifactId>
-    <version>VERSION</version>
+
+        <mc.version>MINECRAFT VERSION</mc.version> (default value is 1.19.3 so there is no pom.xml errors)
+        <groupId>YOURNAME</groupId>
+        <artifactId>PLUGINNAME</artifactId>
+        <version>VERSION</version>
 
 Then, you can rename your packages. In VSCode, you can right click on the folder names and click rename. This will not refractor the code however, so you have to edit the package names in each file yourself. If your using intellij, then you can refractor the names. 
 
 
 Make sure you have a JDK installed
     
-    Then, you can run the following commands in the terminal:
+Then, you can run the following commands in the terminal:
     
         mvn clean install
         mvn compile
