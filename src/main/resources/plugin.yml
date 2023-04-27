@@ -1,22 +1,11 @@
-name: AFK_Rewards
+name: PLUGIN_NAME
 version: 1.0
-main: me.Incbom.afk.Main
-depennd: [WorldGuard, Vault, WorldEdit, WGRegionEvents]
+main: me.yourname.pluginname.Main
 commands:
-  afk:
-    description: AFK main command
-    usage: '/afk'
-    aliases: [afkrewards, afk]
-    permission: afk.main
-    permission-message: You do not have permission to use this command
-  afkregion:
-    description: Manages AFK regions
-    usage: '/afkregion'
-    permission: afk.regions
-    permission-message: You do not have permission to use this command
-  afkreload:
-    description: Reloads the config
-    usage: '/afkreload'
-    permission: afk.reload
+  mycommand:
+    description: mycommand
+    usage: '/mycmd'
+    aliases: [mycommand]
+    permission: me.main
     permission-message: You do not have permission to use this command
 
